@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_user_push"
+        android:icon="@drawable/ic_push"
+        android:title="@string/menu_users_push"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_edit"
+        android:icon="@drawable/ic_edit_black"
+        android:title="@string/menu_edit"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_user_projects"
+        android:icon="@drawable/ic_projects"
+        android:title="@string/menu_projects"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_add_vacation"
+        android:title="@string/text_add_vacation" />
+
+    <item
+        android:id="@+id/action_add_day_off"
+        android:title="@string/text_add_day_off" />
+</menu>

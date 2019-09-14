@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_workload"
+            android:icon="@drawable/ic_time"
+            android:title="@string/menu_workload" />
+        <item
+            android:id="@+id/action_my_projects"
+            android:icon="@drawable/ic_projects"
+            android:title="@string/menu_my_projects" />
+        <item
+            android:id="@+id/action_my_notes"
+            android:icon="@drawable/ic_notes"
+            android:title="@string/menu_my_notes" />
+        <item
+            android:id="@+id/action_vacations"
+            android:icon="@drawable/ic_vacation"
+            android:title="@string/menu_vacations" />
+        <item
+            android:id="@+id/action_alerts"
+            android:icon="@drawable/ic_info"
+            android:title="@string/menu_alerts"
+            android:visible="false" />
+        <item
+            android:id="@+id/action_dashboard"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_dashboard" />
+        <item
+            android:id="@+id/action_users"
+            android:icon="@drawable/ic_group"
+            android:title="@string/menu_users" />
+        <item
+            android:id="@+id/action_projects"
+            android:icon="@drawable/ic_projects"
+            android:title="@string/menu_projects" />
+        <item
+            android:id="@+id/action_holidays"
+            android:icon="@drawable/ic_holiday"
+            android:title="@string/menu_holidays" />
+        <item
+            android:id="@+id/action_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/menu_settings" />
+    </group>
+</menu>

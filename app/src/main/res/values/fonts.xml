@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="google_regular" translatable="false">fonts/GoogleSans-Regular.ttf</string>
+    <string name="google_medium" translatable="false">fonts/GoogleSans-Medium.ttf</string>
+    <string name="google_black" translatable="false">fonts/GoogleSans-Bold.ttf</string>
+
+    <style name="TextAppearance" />
+
+    <style name="TextAppearance.FastScroll" parent="TextAppearance.AppCompat.Body1">
+        <item name="fontPath">@string/google_regular</item>
+        <item name="android:textSize">@dimen/ts_button</item>
+    </style>
+
+    <style name="TextAppearance.Caption" parent="TextAppearance.AppCompat.Caption">
+        <item name="fontPath">@string/google_medium</item>
+        <item name="android:textSize">@dimen/ts_caption</item>
+    </style>
+
+    <style name="TextAppearance.Body1" parent="TextAppearance.AppCompat.Body1">
+        <item name="fontPath">@string/google_medium</item>
+        <item name="android:textSize">@dimen/ts_body</item>
+    </style>
+
+    <style name="TextAppearance.Body2" parent="TextAppearance.AppCompat.Body2">
+        <item name="fontPath">@string/google_regular</item>
+        <item name="android:textSize">@dimen/ts_body_2</item>
+    </style>
+
+    <style name="TextAppearance.Subhead" parent="TextAppearance.AppCompat.Subhead">
+        <item name="fontPath">@string/google_black</item>
+        <item name="android:textSize">@dimen/ts_subhead</item>
+    </style>
+
+    <style name="TextAppearance.Button" parent="TextAppearance.AppCompat.Button">
+        <item name="fontPath">@string/google_medium</item>
+        <item name="android:textSize">@dimen/ts_button</item>
+    </style>
+
+    <style name="TextAppearance.Title" parent="TextAppearance.AppCompat.Title">
+        <item name="fontPath">@string/google_black</item>
+        <item name="android:textSize">@dimen/ts_title</item>
+    </style>
+
+    <style name="TextAppearance.Headline" parent="TextAppearance.AppCompat.Headline">
+        <item name="fontPath">@string/google_black</item>
+        <item name="android:textSize">@dimen/ts_headline</item>
+    </style>
+
+    <style name="TextAppearance.MenuItem">
+        <item name="fontPath">@string/google_medium</item>
+        <item name="android:textSize">@dimen/ts_body_2</item>
+        <item name="android:textColor">@color/color_selector_menu_item</item>
+    </style>
+
+</resources>

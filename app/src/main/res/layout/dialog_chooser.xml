@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_chooser_dialog">
+
+    <RelativeLayout
+        android:id="@+id/layoutProfile"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/bg_oval_accent">
+
+        <TextView
+            android:id="@+id/textLetters"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.Body2"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp"
+            tools:text="RL" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_toEndOf="@id/layoutProfile"
+        android:textAppearance="@style/TextAppearance.Body2"
+        android:textColor="?attr/colorTextPrimary"
+        tools:text="Title"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_toEndOf="@id/layoutProfile"
+        android:textAppearance="@style/TextAppearance.Body2"
+        android:textColor="?attr/colorTextSecondary"
+        android:textSize="@dimen/ts_caption"
+        tools:text="SubTitle"
+        tools:visibility="visible" />
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutProfile"
+        android:layout_marginTop="@dimen/margin_default"
+        app:itemIconTint="@color/color_selector_menu_icon"
+        app:itemTextColor="?attr/colorTextDefault"
+        app:theme="@style/TextAppearance.MenuItem"
+        tools:menu="@menu/menu_nav_admin" />
+
+</RelativeLayout>

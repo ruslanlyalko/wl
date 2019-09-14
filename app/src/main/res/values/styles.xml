@@ -1,0 +1,125 @@
+<resources>
+
+    <!-- Day -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="coordinatorLayoutStyle">@style/Widget.Support.CoordinatorLayout</item>
+        <item name="android:statusBarColor">@color/colorAccent</item>
+        <item name="android:colorControlHighlight">@color/colorAccent</item>
+        <!--<item name="android:windowLightStatusBar">true</item>-->
+        <item name="colorAppBarBackground">@color/colorAppBarBackground</item>
+        <item name="colorBottomAppBarBackground">@color/colorBottomAppBarBackground</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="colorBackground">@color/colorBackground</item>
+        <item name="colorBackgroundButton">@color/colorBackgroundButton</item>
+        <item name="colorPanelBackground">@color/colorPanelBackground</item>
+        <item name="colorBackgroundGray">@color/colorBackgroundGray</item>
+        <item name="colorBackgroundMenuItem">@color/colorBackgroundMenuItem</item>
+        <item name="colorBackgroundMenu">@color/colorBackgroundMenu</item>
+        <item name="colorCardBackground">@color/colorCardBackground</item>
+        <item name="colorDivider">@color/colorDivider</item>
+        <item name="colorStroke">@color/colorStroke</item>
+        <item name="colorInputBorder">@color/colorInputBorder</item>
+        <item name="colorIcon">@color/colorIcon</item>
+        <item name="colorIconGray">@color/colorIconGray</item>
+        <item name="colorIconWhite">@color/colorIconWhite</item>
+        //
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        //
+        <item name="android:textColor">@color/colorTextDefault</item>
+        <item name="colorTextDefault">@color/colorTextDefault</item>
+        <item name="colorTextPrimary">@color/colorTextPrimary</item>
+        <item name="colorTextSecondary">@color/colorTextSecondary</item>
+        <item name="colorTextGray">@color/colorTextGray</item>
+        <item name="colorTextProject">@color/colorTextProject</item>
+        <item name="android:editTextStyle">@style/EditTextStyle</item>
+        <item name="editTextStyle">@style/EditTextStyle</item>
+        <item name="drawableMenu">@drawable/ic_menu_gr</item>
+        <item name="colorSnow">@color/colorSnow</item>
+    </style>
+
+    <!-- Night-->
+    <style name="AppTheme.Dark" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="coordinatorLayoutStyle">@style/Widget.Support.CoordinatorLayout</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:colorControlHighlight">@color/colorAccent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowBackground">@color/colorBackgroundNight</item>
+        <item name="colorBackground">@color/colorBackgroundNight</item>
+        <item name="colorBackgroundButton">@color/colorBackgroundButtonNight</item>
+        <item name="colorPanelBackground">@color/colorPanelBackgroundNight</item>
+        <item name="colorBackgroundGray">@color/colorBackgroundGrayNight</item>
+        <item name="colorBackgroundMenuItem">@color/colorBackgroundMenuItemNight</item>
+        <item name="colorBackgroundMenu">@color/colorBackgroundMenuNight</item>
+        <item name="colorCardBackground">@color/colorCardBackgroundNight</item>
+        <item name="colorDivider">@color/colorDividerNight</item>
+        <item name="colorStroke">@color/colorStrokeNight</item>
+        <item name="colorInputBorder">@color/colorInputBorderNight</item>
+        <item name="colorAppBarBackground">@color/colorAppBarBackgroundNight</item>
+        <item name="colorBottomAppBarBackground">@color/colorBottomAppBarBackgroundNight</item>
+        <item name="colorIcon">@color/colorIconNight</item>
+        <item name="colorIconGray">@color/colorIconGrayNight</item>
+        <item name="colorIconWhite">@color/colorIconWhiteNight</item>
+        //
+        <item name="colorPrimary">@color/colorPrimaryNight</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkNight</item>
+        <item name="colorAccent">@color/colorAccentNight</item>
+        //
+        <item name="android:textColor">@color/colorTextDefaultNight</item>
+        <item name="colorTextDefault">@color/colorTextDefaultNight</item>
+        <item name="colorTextPrimary">@color/colorTextPrimaryNight</item>
+        <item name="colorTextSecondary">@color/colorTextSecondaryNight</item>
+        <item name="colorTextGray">@color/colorTextGrayNight</item>
+        <item name="colorTextProject">@color/colorTextProjectNight</item>
+        <item name="android:editTextStyle">@style/EditTextStyleNight</item>
+        <item name="editTextStyle">@style/EditTextStyleNight</item>
+        <item name="drawableMenu">@drawable/ic_menu_b</item>
+        <item name="colorSnow">@color/colorSnowNight</item>
+    </style>
+
+    <style name="EditTextStyle" parent="@android:style/Widget.Material.Light.EditText">
+        <item name="android:textColor">@color/colorTextDefault</item>
+    </style>
+
+    <style name="InputTextStyle" >
+        <item name="colorControlNormal">?attr/colorInputBorder</item>
+        <item name="colorControlActivated">?android:attr/colorAccent</item>
+        <item name="colorControlHighlight">?android:attr/colorAccent</item>
+    </style>
+
+    <style name="EditTextStyleNight" parent="@android:style/Widget.Material.EditText">
+        <item name="android:textColor">@color/colorTextDefaultNight</item>
+        <item name="android:textColorHint">@color/colorTextPrimaryNight</item>
+        <item name="android:colorControlNormal">@color/colorTextPrimaryNight</item>
+        <item name="android:colorControlActivated">@color/colorTextPrimaryNight</item>
+        <item name="android:colorControlHighlight">@color/colorTextPrimaryNight</item>
+        <item name="android:backgroundTint">@color/colorTextPrimaryNight</item>
+    </style>
+
+    <style name="NavigationTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="colorControlHighlight">@android:color/transparent</item>
+        <item name="android:colorControlHighlight">@android:color/transparent</item>
+        <item name="listPreferredItemHeightSmall">52dp</item>
+        <item name="listPreferredItemHeight">52dp</item>
+    </style>
+
+    <style name="AppTheme.Splash" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/launcher_screen</item>
+        <item name="android:statusBarColor">@color/colorBackgroundNight</item>
+    </style>
+
+    <style name="ChooserTheme" parent="Theme.Design.BottomSheetDialog">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorBackgroundGray</item>
+    </style>
+
+
+</resources>

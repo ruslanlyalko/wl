@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_profile"
+            android:icon="@drawable/ic_person_gray"
+            android:title="@string/menu_profile" />
+        <item
+            android:id="@+id/action_calendar"
+            android:icon="@drawable/ic_calendar"
+            android:title="@string/menu_calendar" />
+        <item
+            android:id="@+id/action_members"
+            android:icon="@drawable/ic_group"
+            android:title="@string/menu_members" />
+        <item
+            android:id="@+id/action_expenses"
+            android:icon="@drawable/ic_export"
+            android:title="@string/menu_expenses" />
+        <item
+            android:id="@+id/action_salary"
+            android:icon="@drawable/ic_statistics"
+            android:title="@string/menu_salary" />
+        <item
+            android:id="@+id/action_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/menu_settings" />
+
+    </group>
+</menu>

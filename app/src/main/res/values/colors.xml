@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    // Day
+    <color name="colorPrimary">#fff</color>
+    <color name="colorPrimaryDark">#D43232</color>
+    <color name="colorAccent">#D43232</color>
+    <color name="colorAppBarBackground">#D43232</color>
+    <color name="colorBottomAppBarBackground">#000</color>
+    <color name="colorBackgroundMenu">#fff</color>
+    <color name="colorBackgroundMenuItem">#effbfc</color>
+    <color name="colorBackground">#fff</color>
+    <color name="colorCardBackground">#EDDCDC</color>
+    <color name="colorPanelBackground">#f0f2f5</color>
+    <color name="colorBackgroundGray">#f0f2f5</color>
+    <color name="colorBackgroundButton">#fff</color>
+    <color name="colorDivider">#f3f3f3</color>
+    <color name="colorTextDefault">#2a3035</color>
+    <color name="colorTextPrimary">#3f444a</color>
+    <color name="colorTextSecondary">#869099</color>
+    <color name="colorTextGray">#333f444a</color>
+    <color name="colorTextProject">#3f444a</color>
+    <color name="colorStroke">#e9eaef</color>
+    <color name="colorIcon">#2a3035</color>
+    <color name="colorIconGray">#3f444a</color>
+    <color name="colorIconWhite">#fff</color>
+    <color name="colorInputBorder">#959697</color>
+    <color name="colorSnow">#92A7B9</color>
+    // Night
+    <color name="colorPrimaryNight">#121414</color>
+    <color name="colorPrimaryDarkNight">#D43232</color>
+    <color name="colorAccentNight">#D43232</color>
+    <color name="colorAppBarBackgroundNight">#D43232</color>
+    <color name="colorBottomAppBarBackgroundNight">#000</color>
+    <color name="colorBackgroundMenuNight">#262626</color>
+    <color name="colorBackgroundMenuItemNight">#28393b</color>
+    <color name="colorBackgroundNight">#121414</color>
+    <color name="colorCardBackgroundNight">#2c2c2c</color>
+    <color name="colorPanelBackgroundNight">#2c2c2c</color>
+    <color name="colorBackgroundGrayNight">#3f3f40</color>
+    <color name="colorBackgroundButtonNight">#3f3f40</color>
+    <color name="colorDividerNight">#2c2c2c</color>
+    <color name="colorTextDefaultNight">#e7e7e7</color>
+    <color name="colorTextPrimaryNight">#a8a8a8</color>
+    <color name="colorTextSecondaryNight">#a8a8a8</color>
+    <color name="colorTextGrayNight">#3b3b3b</color>
+    <color name="colorTextProjectNight">#CECECE</color>
+    <color name="colorStrokeNight">#2c2c2c</color>
+    <color name="colorIconNight">#e7e7e7</color>
+    <color name="colorIconGrayNight">#e7e7e7</color>
+    <color name="colorIconWhiteNight">#e7e7e7</color>
+    <color name="colorInputBorderNight">#a8a8a8</color>
+    <color name="colorSnowNight">#ffffff</color>
+    <!-- - -->
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorMenuIcon">#869099</color>
+    <color name="colorTopic">#aeb9c5</color>
+    <color name="colorMenuItemSelected">#00b2a8</color>
+    <color name="colorYellow">#fdcc5d</color>
+
+    //
+    <color name="colorBackgroundTouchOutside">#0e131c</color>
+    // Status
+    <color name="bg_event_holiday">#f75764</color>
+    <color name="bg_status_worked">#57d58e</color>
+    <color name="bg_status_worked_home">#00d1c3</color>
+    <color name="bg_status_working_off">#36bee3</color>
+    <color name="bg_status_no_project">#ffb625</color>
+    <color name="bg_status_day_off">#a877fd</color>
+    <color name="bg_status_vacation">#f673a9</color>
+    <color name="bg_status_sick_leave">#8095ff</color>
+    <color name="bg_current_day">#f0f2f5</color>
+
+    <array name="bar_colors">
+        <item>#86d7fc</item>
+        <item>#79eeac</item>
+        <item>#be99ff</item>
+        <item>#ffd072</item>
+        <item>#f5b0e9</item>
+        <item>#55ede3</item>
+        <item>#b1b1b1</item>
+    </array>
+    <color name="mtrl_textinput_default_box_stroke_color">#a8a8a8</color>
+</resources>

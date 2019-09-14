@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Margin-->
+    <dimen name="margin_triple">48dp</dimen>
+    <dimen name="margin_double">32dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_big">20dp</dimen>
+    <dimen name="margin_default">16dp</dimen>
+    <dimen name="margin_medium">12dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_mini">4dp</dimen>
+    <dimen name="margin_thumb">10dp</dimen>
+
+    <!--Padding-->
+    <dimen name="padding_reply">70dp</dimen>
+    <dimen name="padding_triple">48dp</dimen>
+    <dimen name="padding_double">32dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+    <dimen name="padding_big">20dp</dimen>
+    <dimen name="padding_default">16dp</dimen>
+    <dimen name="padding_medium">12dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_mini">4dp</dimen>
+
+    <!--Text sizes-->
+    <dimen name="ts_caption">14sp</dimen>
+    <dimen name="ts_button">20sp</dimen>
+    <dimen name="ts_body">18sp</dimen>
+    <dimen name="ts_body_2">16sp</dimen>
+    <dimen name="ts_subhead">13sp</dimen>
+    <dimen name="ts_title">16sp</dimen>
+    <dimen name="ts_headline">22sp</dimen>
+    <dimen name="ts_display">34sp</dimen>
+
+    <dimen name="divider">1dp</dimen>
+    <dimen name="card_height">200dp</dimen>
+    <dimen name="card_radius">5dp</dimen>
+    <dimen name="input_radius">7dp</dimen>
+    <dimen name="menu_height">56dp</dimen>
+    <dimen name="calendar_height">260dp</dimen>
+
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ds">
+        <attr name="colorBottomAppBarBackground" format="color" />
+        <attr name="colorAppBarBackground" format="color" />
+        <attr name="colorBackground" format="color" />
+        <attr name="colorBackgroundGray" format="color" />
+        <attr name="colorCardBackground" format="color" />
+        <attr name="colorPanelBackground" format="color" />
+        <attr name="colorBackgroundButton" format="color" />
+        <attr name="colorBackgroundMenu" format="color" />
+        <attr name="colorBackgroundMenuItem" format="color" />
+        <attr name="colorDivider" format="color" />
+        <attr name="colorStroke" format="color" />
+        <attr name="colorInputBorder" format="color" />
+        <attr name="colorIcon" format="color" />
+        <attr name="colorIconGray" format="color" />
+        <attr name="colorIconWhite" format="color" />
+
+        <attr name="colorTextDefault" format="color" />
+        <attr name="colorTextPrimary" format="color" />
+        <attr name="colorTextSecondary" format="color" />
+        <attr name="colorTextGray" format="color" />
+        <attr name="colorTextProject" format="color" />
+        <attr name="colorSnow" format="color" />
+
+        <attr name="drawableMenu" format="reference" />
+    </declare-styleable>
+
+    <attr name="statusCalendarEventIndicatorStyle" format="enum">
+        <enum name="fill_large_indicator" value="1" />
+        <enum name="no_fill_large_indicator" value="2" />
+        <enum name="small_indicator" value="3" />
+    </attr>
+    <attr name="statusCalendarCurrentDayIndicatorStyle" format="enum">
+        <enum name="fill_large_indicator" value="1" />
+        <enum name="no_fill_large_indicator" value="2" />
+    </attr>
+    <attr name="statusCalendarCurrentSelectedDayIndicatorStyle" format="enum">
+        <enum name="fill_large_indicator" value="1" />
+        <enum name="no_fill_large_indicator" value="2" />
+    </attr>
+
+    <declare-styleable name="StatusCalendarView">
+        <attr name="statusCalendarTextSize" format="dimension" />
+        <attr name="statusCalendarBackgroundColor" format="color" />
+        <attr name="statusCalendarCurrentDayBackgroundColor" format="color" />
+        <attr name="statusCalendarCurrentDayTextColor" format="color" />
+        <attr name="statusCalendarCurrentSelectedDayBackgroundColor" format="color" />
+        <attr name="statusCalendarCurrentSelectedDayTextColor" format="color" />
+        <attr name="statusCalendarTextColor" format="color" />
+        <attr name="statusCalendarMultiEventIndicatorColor" format="color" />
+        <attr name="statusCalendarTargetHeight" format="dimension" />
+        <attr name="statusCalendarDayPadding" format="dimension" />
+        <attr name="statusCalendarEventIndicatorStyle" />
+        <attr name="statusCalendarCurrentDayIndicatorStyle" />
+        <attr name="statusCalendarCurrentSelectedDayIndicatorStyle" />
+        <attr name="statusCalendarDisplayOtherMonthDays" format="boolean" />
+        <attr name="statusCalendarShouldSelectFirstDayOfMonthOnScroll" format="boolean" />
+        <attr name="statusCalendarOtherMonthDaysTextColor" format="color" />
+        <attr name="statusCalendarHeaderDaysTextColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressButton">
+        <attr name="pb_buttonText" format="string" />
+        <attr name="pb_buttonRadius" format="dimension" />
+        <attr name="pb_textSize" format="dimension" />
+        <attr name="pb_buttonColor" format="reference|color" />
+        <attr name="pb_progressColor" format="reference|color" />
+        <attr name="pb_textColor" format="reference|color" />
+        <attr name="pb_textAppearance" format="reference"/>
+    </declare-styleable>
+
+</resources>

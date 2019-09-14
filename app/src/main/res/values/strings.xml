@@ -1,0 +1,257 @@
+<resources>
+    <string name="app_name" translatable="false">Workload</string>
+
+    <!--Title-->
+    <string name="title_profile">Profile</string>
+    <string name="title_alerts">Alerts</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_holidays">Holidays</string>
+    <string name="title_project">Project</string>
+    <string name="title_projects">Projects</string>
+    <string name="title_my_projects">My projects</string>
+    <string name="title_my_notes">Notes</string>
+    <string name="title_users">Users</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_add">Add</string>
+    <string name="title_edit">Edit</string>
+    <string name="title_vacations">Vacations</string>
+    <string name="title_user_details">User Details</string>
+    <string name="title_project_details">Project Details</string>
+    <string name="title_user_projects">User Projects</string>
+    <string name="title_user_push">User Push History</string>
+    <string name="title_project_users">Project Users</string>
+    <string name="title_alerts_settings">Settings</string>
+    <string name="title_new_workload">New Workload</string>
+    <string name="title_edit_workload">Edit Workload</string>
+    <string name="title_export">Export</string>
+
+    <!--Hints-->
+    <string name="hint_email">Email</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_project_title">Project title</string>
+    <string name="hint_body">Body</string>
+    <string name="hint_default_title">Default Push Title</string>
+    <string name="hint_default_body">Default Push Body</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_phone_optional">Phone (optional)</string>
+    <string name="hint_skype">Skype</string>
+    <string name="hint_skype_optional">Skype (optional)</string>
+    <string name="hint_comment_optional">Comments (visible only for Admins)</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_password_confirm">Confirm Password</string>
+    <string name="hint_birthday">Birthday</string>
+    <string name="hint_first_working_day">First Working Day</string>
+    <string name="hint_from">From</string>
+    <string name="hint_to">To</string>
+    <string name="hint_date">Date</string>
+
+    <!--Texts-->
+    <string name="text_login">Login</string>
+    <string name="text_blocked">Is Blocked</string>
+    <string name="text_night_mode">Night mode</string>
+    <string name="text_old_style_calendar">Old style calendar</string>
+    <string name="text_allow_edit">Allow To Edit All Workloads</string>
+    <string name="text_vip">VIP</string>
+    <string name="text_save">Save</string>
+    <string name="text_register">Register User</string>
+    <string name="text_report_placeholder">Click to add New Report</string>
+    <string name="text_delete">Are you sure you want to delete?</string>
+    <string name="text_today">Today</string>
+    <string name="text_yesterday">Yesterday</string>
+    <string name="text_tomorrow">Tomorrow</string>
+    <string name="text_forgot_password_click_here_to_send_reset_instructions"><u>Forgot password? Click here to send Reset Instruction</u></string>
+    <string name="text_not_standard_reports">Not Standard Reports</string>
+    <string name="text_users_without_reports">Users without reports: %d</string>
+    <string name="text_remind_at">Remind me at</string>
+    <string name="text_default">Default working time</string>
+    <string name="text_get_project_info">Get Project Info</string>
+    <string name="text_report_saved">Saved</string>
+    <string name="text_user_created">User created</string>
+    <string name="text_report_saved_workloads">Saved %d workloads</string>
+    <string name="text_not_specified">Not specified</string>
+
+    <!--Errors-->
+    <string name="error_wrong_credentials">Wrong email or password</string>
+    <string name="error_blocked">You have been blocked by administrator!</string>
+    <string name="error_cant_be_zero">Please select at least one project!</string>
+    <string name="error_cant_be_more_than_16">Can\'t be more than 16 working hours per day!</string>
+    <string name="error_cant_be_two_same_projects">You can\'t use the same project twice!</string>
+    <string name="error_cant_save_weekend">You can\'t create workload with status Vacation / Day off / Sick leave on weekends</string>
+    <string name="error_cant_be_empty">Field can\'t be empty</string>
+    <string name="error_email_badly_formatted">The email address is badly formatted</string>
+    <string name="error_cant_be_empty_phone">Phone can\'t be empty</string>
+    <string name="error_cant_be_empty_skype">Skype can\'t be empty</string>
+    <string name="error_cant_be_empty_phone_skype">Phone and skype can\'t be empty</string>
+    <string name="error_cant_start_with_dash">Title can\'t start with dash symbol</string>
+    <string name="error_passwords_should_be_at_least_6_symbols">Password should be at least 6 symbols</string>
+    <string name="error_passwords_should_equals">Password does not match the confirm password</string>
+    <string name="error_check_date">Wrong current date on your phone</string>
+    <string name="error_denied">To export data you should accept permission request!</string>
+
+    <!--Menu-->
+    <string name="menu_workload">Workload</string>
+    <string name="menu_alerts">Alerts</string>
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_users">Users</string>
+    <string name="menu_projects">Projects</string>
+    <string name="menu_my_projects">My projects</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_send">SEND</string>
+    <string name="menu_holidays">Holidays</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_vacations">Vacations</string>
+    <string name="menu_date">Select Date</string>
+    <string name="menu_calendar">Calendar</string>
+    <string name="menu_statistics">Statistics</string>
+    <string name="menu_email">Select Email</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_menu">Menu</string>
+    <string name="menu_export">Export</string>
+
+    <!--Placeholder-->
+    <string name="placeholder_no_reports">No one user found with not standard report..</string>
+    <string name="placeholder_no_data">Press \'Get Project Info\' to see data on Chart</string>
+    <string name="placeholder_no_users">Seems like all users have reports..</string>
+    <string name="placeholder_no_vacations">No vacations yet..</string>
+    <string name="placeholder_no_projects_contact_admin">No projects. You can add more in \"My projects\" section</string>
+    <string name="placeholder_no_projects">No projects are selected</string>
+
+    <!--Others-->
+    <string name="action_copy">Copy</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_discard">Discard</string>
+    <string name="department_prompt">Choose Department</string>
+    <string name="text_add">Add</string>
+    <string name="text_search">Search</string>
+    <string name="day_taken">"%s year: %d day taken \n"</string>
+    <string name="days_taken">"%s year: %d days taken \n"</string>
+    <string name="text_minus">-</string>
+    <string name="text_plus">+</string>
+    <string name="text_change_password">Change password</string>
+    <string name="text_add_project">Add project</string>
+    <string name="text_copied">Copied</string>
+    <string name="text_immediately_login">Immediately login</string>
+    <string name="text_export">Start exporting</string>
+    <string name="version_name">Current version %s</string>
+    <string name="version_name_available">Current version %s\nAvailable %s</string>
+    <string name="text_change_email">Notification email</string>
+    <string name="text_petterson">\@pettersonapps.com</string>
+    <string name="text_are_you_sure_you_want_to_delete_this_workload">Are you sure you want to delete \nthis Workload?</string>
+    <string name="text_are_you_sure_you_want_to_logout">Are you sure you want to logout?</string>
+    <string name="text_add_vacation">Add Vacation</string>
+    <string name="text_add_day_off">Add Day off</string>
+    <string name="status_day_off">Day off (Personal reasons)</string>
+    <string name="status_vacation">Vacations</string>
+    <string name="text_total_filled">Total filled reports: %d</string>
+    <string name="error_no_internet">No internet connection</string>
+    <string name="hint_moderator_notification_email">Moderator notification email</string>
+    <string name="hint_latest_android_version">Latest Android version</string>
+    <string name="hint_latest_ios_version">Latest iOS version</string>
+    <string name="text_snow">Snow Effect</string>
+    <string name="text_no_vacations">There are no vacations yet</string>
+    <string name="menu_users_push">Users push</string>
+    <string name="sent">Push sent!</string>
+    <string name="btn_update">Update</string>
+    <string name="title_add_project">Add project</string>
+    <string name="text_you_ve_been_granted_edit_mode_nplease_fill_in_missed_workloads_till_the_end_of_the_day">You\'ve been granted Edit Mode. Please fill in missed workloads till the end of the day.</string>
+    <string name="menu_filter">Filter</string>
+    <string name="text_admin">Admin</string>
+    <string name="text_manager">Manager</string>
+    <string name="text_show_calendar">Show Calendar</string>
+    <string name="text_hide_calendar">Hide Calendar</string>
+    <string name="text_add_note">+ List Item</string>
+    <string name="text_time">Time</string>
+    <string name="text_specify">Specify your working hours</string>
+    <string name="menu_my_notes">Notes</string>
+    <string name="title_statistics">%s statistics</string>
+    <string name="department_ios">iOS</string>
+    <string name="department_android">Android</string>
+    <string name="department_backend">Backend,Web</string>
+    <string name="department_design">Design</string>
+    <string name="department_pm">PM</string>
+    <string name="department_qa">QA</string>
+    <string name="department_other">Other</string>
+    <string name="text_spent">Time spent:</string>
+    <string name="text_open_after_saving">Open after saving</string>
+    <string name="text_save_changes">Save changes before exit?</string>
+    <string name="action_save">Save</string>
+    <string name="menu_share">Share</string>
+    <string name="send_to">Send to</string>
+    <string name="menu_share_text">Share only text</string>
+    <string name="text_open_statistics">Open Statistics</string>
+    <string name="menu_members">Members</string>
+    <string name="menu_expenses">Expenses</string>
+    <string name="menu_salary">Salary</string>
+    <string name="menu_profile">Profile</string>
+
+    <!--arrays-->
+    <string-array name="departments">
+        <item>iOS</item>
+        <item>Android</item>
+        <item>Backend,Web</item>
+        <item>Design</item>
+        <item>PM</item>
+        <item>QA</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="hours">
+        <item>1h</item>
+        <item>2h</item>
+        <item>3h</item>
+        <item>4h</item>
+        <item>5h</item>
+        <item>6h</item>
+        <item>7h</item>
+        <item>8h</item>
+        <item>9h</item>
+        <item>10h</item>
+        <item>11h</item>
+        <item>12h</item>
+    </string-array>
+    <string-array name="default_time">
+        <item>8:00</item>
+        <item>4:00</item>
+    </string-array>
+    <string-array name="notification_hours">
+        <item>16:00</item>
+        <item>16:15</item>
+        <item>16:30</item>
+        <item>16:45</item>
+        <item>17:00</item>
+        <item>17:15</item>
+        <item>17:30</item>
+        <item>17:45</item>
+        <item>18:00</item>
+        <item>18:15</item>
+        <item>18:30</item>
+        <item>18:45</item>
+        <item>19:00</item>
+        <item>19:15</item>
+        <item>19:30</item>
+        <item>19:45</item>
+        <item>20:00</item>
+    </string-array>
+    <string-array name="status">
+        <item>Worked on project(s)</item>
+        <item>Worked from home</item>
+        <item>Working off</item>
+        <item>No projects (Nothing to do)</item>
+        <item>Day off (Personal reasons)</item>
+        <item>Vacations</item>
+        <item>Sick leave</item>
+    </string-array>
+    <string-array name="status_">
+        <item>Status</item>
+        <item>Worked on project(s)</item>
+        <item>Worked from home</item>
+        <item>Working off</item>
+        <item>No projects (Nothing to do)</item>
+        <item>Day off (Personal reasons)</item>
+        <item>Vacations</item>
+        <item>Sick leave</item>
+    </string-array>
+</resources>
